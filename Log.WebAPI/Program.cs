@@ -1,12 +1,10 @@
 using Log.WebAPI.Context;
-using Log.WebAPI.Filters;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using Serilog.Events;
-using System.Diagnostics;
 using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
